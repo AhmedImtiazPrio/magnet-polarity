@@ -1,4 +1,3 @@
 [submodule "stylegan2-ada-magnet"]
 	path = stylegan2-ada-magnet
 	url = ./stylegan2-ada-magnet
-	ignore = dirty
