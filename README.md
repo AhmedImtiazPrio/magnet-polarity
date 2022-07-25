@@ -36,6 +36,17 @@ cd magnet-polarity
 git submodule update --init --recursive
 ```
 
+### Google Colabs
+
+| Methods | Dataset | Library | Links
+| :---- | :---- | :---- | :----
+| Polarity-Stylegan2-ada | CIFAR10 | TF1.15 | 
+| Polarity-Stylegan2 | FFHQ | TF1.15 | 
+| Polarity-Stylegan3 | AFHQv2 | Pytorch1.10 | 
+| Polarity-BigGAN-deep | ImageNet | TF2.8 | 
+| Polarity-Diffusion | ImageNet | &nbsp; | &nbsp;
+| Polarity-NVAE | MNIST | &nbsp; | &nbsp;
+
 
 
 
