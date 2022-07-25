@@ -3,6 +3,8 @@
 ### [Paper Link](https://arxiv.org/abs/2203.01993) | [Video Link](https://www.youtube.com/watch?v=zRKyx_dF89M)
 [![polarity_sweep](https://user-images.githubusercontent.com/32792313/180766849-7e927dc2-cb0d-41f6-b614-aecc4b120ad4.gif)](#)
 
+<img src="https://user-images.githubusercontent.com/32792313/180766849-7e927dc2-cb0d-41f6-b614-aecc4b120ad4.gif" width="60" />
+
 
 *Authors:* Ahmed Imtiaz Humayun, Randall Balestriero, Richard Baraniuk
 
