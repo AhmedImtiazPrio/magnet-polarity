@@ -18,19 +18,19 @@ Polarity Sampling is a Plug-and-Play method, we have separate google collabs for
 
 #### To use only the MaGNET library:
 
-```
+```shell
 git clone https://github.com/AhmedImtiazPrio/magnet-polarity.git
 ```
 
 #### To use submodules and compute volume scalars:
 
-```
+```shell
 git clone --recurse-submodules https://github.com/AhmedImtiazPrio/magnet-polarity.git
 ```
 
 or
 
-```
+```shell
 git clone https://github.com/AhmedImtiazPrio/magnet-polarity.git
 cd magnet-polarity
 git submodule update --init --recursive
