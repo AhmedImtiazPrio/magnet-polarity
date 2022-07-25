@@ -1,4 +1,4 @@
-# Polarity Sampling: Quality and Diversity Control of Pre-Trained Generative Networks via Singular Values, CVPR 2022 (Oral)
+## Polarity Sampling: Quality and Diversity Control of Pre-Trained Generative Networks via Singular Values, CVPR 2022 (Oral)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://bit.ly/polarity-demo-colab)
 ### [Paper Link](https://arxiv.org/abs/2203.01993) | [Video Link](https://www.youtube.com/watch?v=zRKyx_dF89M)
 <img src="https://user-images.githubusercontent.com/32792313/180768099-ad64d247-6845-4122-b14e-ef8e5ebf9487.png"  height="300" />
