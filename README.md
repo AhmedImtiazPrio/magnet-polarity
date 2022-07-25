@@ -12,10 +12,36 @@
   <img src="https://user-images.githubusercontent.com/32792313/180781556-1be1abb2-081a-4129-affa-8726e2a40f19.gif"  height="250" alt_text="polarity_sweep_biggan"/>
 </p>
 
+## Usage
+
+Polarity Sampling is a Plug-and-Play method, we have separate google collabs for Tensorflow and Pytorch implementations of StyleGAN2 (TF), BigGAN-deep (TF), StyleGAN3 (Pytorch) and NVAE (Pytorch). The google collab code uses precomputed volume scalars to perform Polarity Sampling, therefore it requires only numpy and has no specific library dependencies. We also have submodules in this repo as examples for Tensorflow(=>1.15) and Pytorch(>=1.5), with methods that compute the volume scalars. We also provide the `MaGNET` helper library which allows training `tensorflow-gpu=>2` models and has polarity sampling modules built into it.
+
+#### To use only the MaGNET library:
+
+```
+git clone https://github.com/AhmedImtiazPrio/magnet-polarity.git
+```
+
+#### To use submodules and compute volume scalars:
+
+```
+git clone --recurse-submodules https://github.com/AhmedImtiazPrio/magnet-polarity.git
+```
+
+or
+
+```
+git clone https://github.com/AhmedImtiazPrio/magnet-polarity.git
+cd magnet-polarity
+git submodule update --init --recursive
+```
+
+
+
 
 ### Citation
 ```
-@InProceedings{Humayun_2022_CVPR,
+@InProceedings{Humayun_2022_polarity,
     author    = {Humayun, Ahmed Imtiaz and Balestriero, Randall and Baraniuk, Richard},
     title     = {Polarity Sampling: Quality and Diversity Control of Pre-Trained Generative Networks via Singular Values},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
@@ -23,7 +49,15 @@
     year      = {2022},
     pages     = {10641-10650}
 }
+
+@InProceedings{Humayun_2022_magnet,
+    author    = {Humayun, Ahmed Imtiaz and Balestriero, Randall and Baraniuk, Richard},
+    title     = {MaGNET: Uniform Sampling from Deep Generative Network Manifolds Without Retraining},
+    booktitle = {International Conference on Learning Representations (ICLR)},
+    year      = {2022},
+    url       = {https://openreview.net/forum?id=r5qumLiYwf9}
+}
 ```
 
 
-#### Check out the codes for our previous paper, _MaGNET: Uniform Sampling from Deep Generative Network Manifolds Without Retraining_, ICLR 2022 at https://github.com/AhmedImtiazPrio/MaGNET
+#### Check out the codes for _MaGNET: Uniform Sampling from Deep Generative Network Manifolds Without Retraining_, ICLR 2022 at https://github.com/AhmedImtiazPrio/MaGNET
