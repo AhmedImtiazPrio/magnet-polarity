@@ -1,7 +1,7 @@
 ## Polarity Sampling: Quality and Diversity Control of Pre-Trained Generative Networks via Singular Values, CVPR 2022 (Oral)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://bit.ly/polarity-demo-colab)
 ### [Paper Link](https://arxiv.org/abs/2203.01993) | [Video Link](https://www.youtube.com/watch?v=zRKyx_dF89M)
-<img src="https://github.com/AhmedImtiazPrio/magnet-polarity/blob/main/assets/polaritysweep.gif"  height="300" />
+<img src="https://github.com/AhmedImtiazPrio/magnet-polarity/blob/main/assets/polaritysweep.gif"  height="300" alt_text="polarity_sweep_animation"/>
 
 
 *Authors:* Ahmed Imtiaz Humayun, Randall Balestriero, Richard Baraniuk
