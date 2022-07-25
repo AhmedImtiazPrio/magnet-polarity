@@ -12,7 +12,7 @@
   <img src="https://user-images.githubusercontent.com/32792313/180781556-1be1abb2-081a-4129-affa-8726e2a40f19.gif"  height="250" alt_text="polarity_sweep_biggan"/>
 </p>
 
-## Setup and Usage
+## Setup
 
 Polarity Sampling is a Plug-and-Play method, we have separate google collabs for Tensorflow and Pytorch implementations of StyleGAN2 (TF), BigGAN-deep (TF), StyleGAN3 (Pytorch) and NVAE (Pytorch). The google collab code uses precomputed volume scalars to perform Polarity Sampling, therefore it requires only numpy and has no specific library dependencies. We also have submodules in this repo as examples for Tensorflow(=>1.15) and Pytorch(>=1.5), with methods that compute the volume scalars. We also provide the `MaGNET` helper library which allows training `tensorflow-gpu=>2` models and has polarity sampling modules built into it.
 
